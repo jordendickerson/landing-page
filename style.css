@@ -69,6 +69,7 @@ body{
 .column{
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 
@@ -86,4 +87,125 @@ ul{
 a{
     text-decoration: none;
     color: white;
+}
+
+/* section 2 */
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 128px;
+    margin-top: 0;
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
+.section-2 h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 64px;
+    text-align: center;
+}
+.section-2 p{
+    text-align: center;
+    margin:0;
+    padding: 0;
+    color: gray;
+}
+
+.information{
+    display: flex;
+    max-width: 150px;
+    flex-shrink: 1;
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    border-style: groove;
+    border-color: blue;
+    border-width: 5px;
+    border-radius: 25px;
+}
+
+/* section 3 */
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    padding: 64px 385px 64px 385px;
+    background-color: #e5e7eb;
+}
+
+.section-3 .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    margin:0;
+}
+
+.credit{
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+    justify-content: flex-end;
+    margin:0;
+}
+
+/* section 4 */
+
+.section-4{
+    background-color: #3882f6;
+    color:white;
+    margin: 64px 400px;
+    padding: 32px 64px;
+    border-radius: 10px;
+}
+
+.call{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.section-4 h1{
+    margin:0;
+    font-size: 28px;
+}
+
+.section-4 p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.section-4 button{
+    width: 150px;
+    color:white;
+    background-color: #3882f6;
+    font-size: large;
+    font-weight: bold;
+    padding: 8px 8px 8px 8px;
+    border-radius: 10px;
+    border-style:groove;
+    border-color: white;
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color: white;
+    padding: 16px;
+}
+
+.footer h3{
+    font-weight: 400;
 }
